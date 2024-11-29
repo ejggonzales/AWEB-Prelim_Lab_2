@@ -1,0 +1,19 @@
+<div class="container my-0">
+    <!-- <p>education works!</p> -->
+    <div class="pb-4" style="background-color: #696f84;">
+        <h1 class="title text-uppercase my-3 py-3 mx-5 text-center">Education</h1>
+        <div class="row mx-5">
+            <!-- Loop through the education array and display each item in a grid cell -->
+            <div class="col-md-6 mb-4" *ngFor="let item of education; let i = index">
+                <div class="card border border-secondary">
+                    <div class="card-body text-light text-center" style="background-color: #51576c;">
+                        <h4 class="fs-3">{{ item.school }}</h4>
+                        <h5>{{ item.level }}</h5>
+                        <h5>{{ item.year }}</h5>
+                        <h5>{{ item.address }}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

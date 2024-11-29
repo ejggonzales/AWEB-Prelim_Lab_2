@@ -1,0 +1,21 @@
+.title {
+    color: #f69e48;
+    font-size: 60px;
+}
+
+.card {
+    margin: 20px auto;
+    background-color: #51576c;
+    color: white;
+}
+
+.card h3 {
+    padding: 0 30px;
+    font-size: 32px;
+    color: #EA906C;
+}
+
+.card li {
+    padding: 0 80px;
+    font-size: 21px;
+}

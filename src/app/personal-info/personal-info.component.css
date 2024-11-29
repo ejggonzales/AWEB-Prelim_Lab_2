@@ -1,0 +1,23 @@
+img {
+    border: solid 8px #e99d52;
+    border-radius: 5px;
+}
+
+.profession {
+    color: #e99d52;
+    font-size: 32px;
+}
+
+.card-body h1 {
+    font-size: 46px;
+}
+
+.card-body p {
+    text-align: justify;
+}
+
+svg {
+    height: 22px;
+    margin: 4px 10px;
+    fill: white;
+}
